@@ -45,11 +45,13 @@ nav {
 }
 .slider {
   background: url("bg.jpg");
-  /*clip-path: polygon(0 0, 100% 0, 100% 100%, 0 86%);*/
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 86%);*/
+  overflow: hidden;
 }
 .sliderWrapper {
   display: flex;
   width: 500vw;
+  transition: all 2s ease-in-out;
 }
 .sliderItem {
   width: 100vw;
