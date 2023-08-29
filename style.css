@@ -29,7 +29,7 @@ nav {
 }
 .limitedOffer {
   font-size: 20px;
-  border-bottom: 2px solid darkorange;
+  border-bottom: 2px solid rgb(222, 150, 16);
   cursor: pointer;
 }
 .navBottom {
@@ -44,7 +44,7 @@ nav {
   font-weight: 400;
 }
 .slider {
-  background: url("bg.jpg");
+  background: url("Untitled design.pdf");
   /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 86%);*/
   overflow: hidden;
 }
@@ -73,7 +73,7 @@ nav {
   position: absolute;
   top: 10%;
   right: 10%;
-  color: white;
+  color: rgb(217, 90, 90);
   font-weight: 800;
   font-size: 60px;
   text-align: center;
