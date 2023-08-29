@@ -38,8 +38,99 @@ nav {
   justify-content: center;
 }
 .menuItem {
-  margin-right: 50px;
+  margin-right: 70px;
   cursor: pointer;
   color: lightgray;
   font-weight: 400;
+}
+.slider {
+  background: url("bg.jpg");
+  /*clip-path: polygon(0 0, 100% 0, 100% 100%, 0 86%);*/
+}
+.sliderWrapper {
+  display: flex;
+  width: 500vw;
+}
+.sliderItem {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.sliderBg {
+  width: 530px;
+  height: 530px;
+  border-radius: 50%;
+  position: absolute;
+}
+.sliderImg {
+  z-index: 1;
+}
+.sliderTitle {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  color: white;
+  font-weight: 800;
+  font-size: 60px;
+  text-align: center;
+  z-index: 1;
+}
+.sliderPrice {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: white;
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center;
+  border: 1px solid orange;
+  z-index: 1;
+}
+.buyButton {
+  position: absolute;
+  top: 70%;
+  right: 13%;
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+  border: 1px solid orange;
+  z-index: 1;
+  cursor: pointer;
+  background-color: black;
+}
+.buyButton:hover {
+  background-color: white;
+  color: black;
+}
+.sliderItem:nth-child(1) .sliderBg {
+  background-color: rgba(227, 155, 23, 0.743);
+}
+.sliderItem:nth-child(2) .sliderBg {
+  background-color: rgba(227, 155, 23, 0.743);
+}
+.sliderItem:nth-child(3) .sliderBg {
+  background-color: rgba(227, 155, 23, 0.743);
+}
+.sliderItem:nth-child(4) .sliderBg {
+  background-color: rgba(227, 155, 23, 0.743);
+}
+.sliderItem:nth-child(5) .sliderBg {
+  background-color: rgba(227, 155, 23, 0.743);
+}
+.sliderItem:nth-child(1) .sliderPrice {
+  background-color: rgba(227, 155, 23, 0.743);
+}
+.sliderItem:nth-child(2) .sliderPrice {
+  background-color: rgba(227, 155, 23, 0.743);
+}
+.sliderItem:nth-child(3) .sliderPrice {
+  background-color: rgba(227, 155, 23, 0.743);
+}
+.sliderItem:nth-child(4) .sliderPrice {
+  background-color: rgba(227, 155, 23, 0.743);
+}
+.sliderItem:nth-child(5) .sliderPrice {
+  background-color: rgba(227, 155, 23, 0.743);
 }
