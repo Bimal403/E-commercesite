@@ -6,7 +6,7 @@ body {
 nav {
   background-color: black;
   color: white;
-  padding: 20px 50px;
+  padding: 10px 50px;
 }
 .navTop {
   display: flex;
@@ -26,6 +26,10 @@ nav {
 }
 .searchInput::placeholder {
   color: lightgray;
+}
+.nice {
+  margin: 0;
+  padding: 0;
 }
 .limitedOffer {
   font-size: 20px;
