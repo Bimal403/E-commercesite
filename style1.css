@@ -1,0 +1,27 @@
+body {
+  background-color: lightgray;
+}
+.hiro {
+  display: flex;
+  justify-content: space-between;
+  height: 450px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.hiro {
+  font-size: 20px;
+}
+.nu {
+  font-size: 15px;
+  color: rgb(50, 49, 49);
+}
+.good {
+  background-color: white;
+  height: 400px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
